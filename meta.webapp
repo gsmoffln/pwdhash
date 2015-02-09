@@ -3,8 +3,7 @@
   "description": "Pwd Hash hash you an unique password for different websites.",
   "launch_path": "/pwdhash/PwdHash.htm",
   "icons": {
-    "512": "/img/icon-512.png",
-    "128": "/img/icon-128.png"
+    "60": "/pwdhash/stanford.png"
   },
   "developer": {
     "name": "Alexander Fuchs",
