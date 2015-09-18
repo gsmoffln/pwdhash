@@ -27,6 +27,8 @@ var SPH_kPasswordPrefix = "@@";
 function Generate()
 {
   var uri = document.hashform.domain.value;
+  var uri = uri.tolowercase();
+  document.hashform.domain.value = uri;
   var domain = (new SPH_DomainExtractor()).extractDomain(uri);
   var size = SPH_kPasswordPrefix.length;
   var data = document.hashform.sitePassword.value;
