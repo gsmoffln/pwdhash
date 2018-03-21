@@ -1,6 +1,6 @@
 # pwdhash
 pwdhash.com als Web App
 
-Repo: https://github.com/Leetcore/pwdhash/tree/gh-pages
+Repo: https://github.com/gsmoffln/pwdhash/tree/gh-pages
 
-WebApp: http://leetcore.github.io/pwdhash/PwdHash.htm
+WebApp: http://gsmoffln.github.io/pwdhash/PwdHash.htm
