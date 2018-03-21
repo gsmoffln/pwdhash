@@ -1,5 +1,5 @@
 # pwdhash
-pwdhash.com als Web App
+pwdhash.com Web App
 
 This is a simple functional copy of the online password hashing tool as a mobile website.
 
