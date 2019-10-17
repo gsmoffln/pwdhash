@@ -13,10 +13,11 @@
  * Initialize page with default hashing parameters.
  */
 function Init() {
-  document.hashform.domain.value = (""+(document.referrer||(window.opener&&window.opener.location)||(window.top.location))).match(/(.*:\/+)([^:\/?&#]+)/)[2]||"";
   document.hashform.sitePassword.value = "";
   document.hashform.hashedPassword.value = "";
   document.hashform.hashedPassword.disabled = true;
+  document.hashform.domain.value = (""+(document.referrer||(window.opener&&window.opener.location)||(window.top.location))).match(/(.*:\/+)([^:\/?&#]+)/)[2]||"";
+  focus(document.hashform.sitePassword);
 }
 
 var SPH_kPasswordPrefix = "@@";
