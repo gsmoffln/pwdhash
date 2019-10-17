@@ -13,7 +13,7 @@
  * Initialize page with default hashing parameters.
  */
 function Init() {
-  document.hashform.domain.value = "";
+  document.hashform.domain.value = (""+(document.referrer||(window.opener&&window.opener.location)||(window.top.location))).match(/(.*:\/+)([^:\/?&#]+)/)[2]||"";
   document.hashform.sitePassword.value = "";
   document.hashform.hashedPassword.value = "";
   document.hashform.hashedPassword.disabled = true;
